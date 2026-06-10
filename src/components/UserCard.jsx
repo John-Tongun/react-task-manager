@@ -1,8 +1,8 @@
-export default function UserCard({user}) {
+export default function UserCard() {
     return (
-        <div className="user-card">
-            <h3>{John Tongun wani}</h3>
-            <p>Fullstack software developer</p>
+        <div>
+            <h3>John Tongun</h3>
+            <p>Fullstack Software Developer</p>
         </div>
     );
 }
